@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MovieDB</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="header">
+      <p>MovieDB</p>
+    </div>
+    
+  <div class="container">
     <form class="searchContainer">
-      <input class="searchInput" type="text" placeholder="Movie Search.."/>
-      <button class='button' type="submit">Search</button>
+      <input class="searchInput input" type="text" placeholder="   Movie Search.." />
+
+      <select id="yearInput">
+        
+      </select>
+
+
+      <button class="button" type="submit">Search</button>
     </form>
+  </div>
+
+    <div class="movieContainer"></div>
 
     <script src="app.js"></script>
   </body>

@@ -1,12 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+body,
+html {
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #fcfcfc;
+}
+.header {
+  padding: 1px;
+  color: #e74c3c;
+  background-color: white;
+  font-size: 25px;
+  font-weight: 700;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header p {
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
 .searchContainer {
-display: flex;
-margin-top: 50px;
-justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+
+  width: 500px;
+  height: 100px;
+
+  background-color: white;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.searchInput {
-    height: 20px;
-    width: 200px;
+.input {
+  height: 32px;
+  width: 200px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  margin-right: 10px;
+}
+#yearInput {
+  height: 32px;
+  width: 100px;
 
-    
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  margin-right: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  height: 32px;
+  background-color: #e74c3c;
+  color: white;
+}
+.movieContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.poster {
+    margin-right: 10px;
 }
