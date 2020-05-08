@@ -5,27 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MovieDB</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/0f9b4aa4e2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="header">
-      <p>MovieDB</p>
+    <div class="container">
+      <div class="header">
+        <div class="logoContainer">
+          <a href="index.html">MovieDB</a>
+        </div>
+
+        <form class="searchContainer">
+          <input
+            class="searchInput input"
+            type="text"
+            placeholder="   Movie Search.."
+          />
+          <!--
+        <select id="yearInput"></select>
+
+        <button class="button" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+-->
+        </form>
+        <div class="navItems">
+          <a href="" class="navitem">About</a>
+          <a href="" class="navitem">Popular</a>
+          <a href="" class="navitem">Login</a>
+        </div>
+      </div>
+
+      <div class="movieContainer">
+        <div class="searchMovieCard"></div>
+      </div>
+
+      <div class="contentContainer">
+       <h1 class="browseTitle">Marvel Binge</h1>
+        <div class="homeContent"></div>
+      </div>
     </div>
-    
-  <div class="container">
-    <form class="searchContainer">
-      <input class="searchInput input" type="text" placeholder="   Movie Search.." />
-
-      <select id="yearInput">
-        
-      </select>
-
-
-      <button class="button" type="submit">Search</button>
-    </form>
-  </div>
-
-    <div class="movieContainer"></div>
-
     <script src="app.js"></script>
   </body>
 </html>
